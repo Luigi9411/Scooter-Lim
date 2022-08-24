@@ -1,0 +1,83 @@
+body{
+  background-image: url(background.jpg);
+  background-size: 1540px 735px;
+  background-repeat: no-repeat;
+}
+/* header */
+#lim{
+width: 180px;
+margin-left: 675px;
+margin-top: 50px;
+position: relative;
+z-index: 2;
+}
+/* nav */
+h1{
+  font-size: 30px;
+  color:#00d200;
+  margin-left: 580px;
+  margin-top: -8px;
+  position: relative;
+  z-index: 2;
+}
+.pulsanti{
+  width: 1000px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin-left: 270px;
+  margin-top: -85px;
+  background-color: #00d200;
+  display: inline-block;
+  text-align: center;
+  z-index: 2;
+  position: relative;
+}
+/* article */
+section{
+color: white;
+margin-left: 270px;
+position: relative;
+z-index: 2;
+}
+input, h2{
+  display: inline-block;
+}
+h3{
+margin-top: -15px;
+}
+.statocarica{
+  width: 400px;
+  background-color: orange;
+  padding-top: 25px;
+  display: inline-block;
+  border-radius: 5px;
+  margin-top: -15px;
+}
+.statocarica1{
+  width: 600px;
+  background-color: #00d200;
+  padding-top: 25px;
+  display: inline-block;
+  border-radius: 5px;
+  margin-top: -15px;
+}
+.statocarica2{
+  width: 200px;
+  background-color: red;
+  padding-top: 25px;
+  display: inline-block;
+  border-radius: 5px;
+  margin-top: -15px;
+}
+/* contenitore */
+#quadrato{
+  background: #000000;
+    opacity: 0.2;
+width: 1100px;
+height: 650px;
+border-radius: 5px;
+position: relative;
+left: 215px;
+top: -600px;
+z-index: 1;
+}
